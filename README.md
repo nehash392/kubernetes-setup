@@ -19,19 +19,10 @@ This project demonstrates deploying Kubernetes clusters on **AWS EKS** with auto
 
 ---
 
-## Architecture Diagram
 
-```mermaid
-graph TD
-    A[AWS EKS Cluster] --> B[Node Group AutoScaling]
-    A --> C[Prometheus Monitoring]
-    A --> D[Grafana Dashboard]
-    A --> E[Demo App Deployment]
-    E --> F[Network Policies]
+## 📂 Project Structure
 
-
-Project Structure
-
+```text
 kubernetes-setup/
 │── terraform/
 │   ├── main.tf
