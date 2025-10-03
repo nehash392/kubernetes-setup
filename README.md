@@ -39,8 +39,8 @@ kubernetes-setup/
 │   └── grafana/
 │── README.md
 │── .gitignore
-
-Getting Started
+```
+## Getting Started
 
 1. Prerequisites
 
@@ -59,7 +59,7 @@ terraform apply -auto-approve
 kubectl apply -f ../k8s-manifests/
 
 
-Learning Objectives
+## Learning Objectives
 
 Deploy EKS clusters via Terraform
 Implement autoscaling for node groups
